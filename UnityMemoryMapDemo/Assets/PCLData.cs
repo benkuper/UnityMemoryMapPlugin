@@ -2,14 +2,6 @@
 using System.Collections;
 using System.Runtime.InteropServices;
 
-[StructLayout(LayoutKind.Sequential)]
-public struct Vec3
-{
-    public float x;
-    public float y;
-    public float z;
-};
-
 
 [StructLayout(LayoutKind.Sequential)]
 public struct PCLPoint
